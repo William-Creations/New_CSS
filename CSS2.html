@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #e6e6e6;
+            color: #333;
+        }
+
+        header {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            width: 90%;
+            max-width: 1100px;
+            margin: 20px auto;
+        }
+
+        .biography,
+        .achievements {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .biography {
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+        }
+
+        .biography img {
+            width: 150px;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .biography div {
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            margin-bottom: 12px;
+            font-size: 28px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            margin-left: 25px;
+            line-height: 1.8;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Athiphat Hirunadisuan</h1>
+    </header>
+
+    <div class="content">
+
+        <section class="biography">
+            <img src="public/images/selfie01.jpg" alt="My Photo">
+
+            <div>
+                <h2>About Me</h2>
+
+                <p>
+                    A former employee of the Assumption University working as a system
+                    engineer for 27 years, challenging himself in the private sector.
+                </p>
+            </div>
+        </section>
+
+        <section class="achievements">
+            <h2>Achievements</h2>
+
+            <ul>
+                <li>The first one who implemented containerization techniques for university infrastructure management.</li>
+                <li>Configured the local Git system from GitLab open source.</li>
+                <li>Lead developer for Prompt Post application for THP (Thailand Post).</li>
+                <li>CTO of Game Square Interactive, one of the first game studios established in Thailand.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Created by --ME-- ©2025 All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
